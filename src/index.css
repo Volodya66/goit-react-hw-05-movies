@@ -13,3 +13,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+p{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.header{
+  margin: 30px 0 ;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.112);
+}
+
+
+
+.home_page{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  margin-left: 15px;
+  display: flex;
+  column-gap: 30px;
+
+}
+
+.page{
+  display: block;
+  padding-bottom: 4px;
+  
+}
+
+.home_page_item{
+  display: block;
+  font-size: 30px;
+  padding-bottom: 10px;
+  /* color: black; */
+}
+
+.home_page_item .active{
+  color: rgba(11, 11, 239, 0.641);
+  
+}
+
+.home_page_item .page.active{
+border-bottom: 2px solid rgb(0, 38, 255);
+}
+
