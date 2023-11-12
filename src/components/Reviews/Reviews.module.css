@@ -1,0 +1,13 @@
+
+.list{
+    display: flex; 
+   flex-direction: column;
+   row-gap: 30px;
+   
+}
+
+.item{
+   max-width: 1300px;
+    /* height: 300px;
+    overflow: auto; */
+}
